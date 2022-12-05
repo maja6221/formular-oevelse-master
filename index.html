@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger menu-øvelse</title>
+    <link rel="stylesheet" href="css/demo.css" />
+    <!-- Ret i nedenståendde stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="banner">
+      <div class="logo">
+        <a href="#0">Logo</a>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <header>
+          <h2>Kontakt os</h2>
+          <p>
+            Udfyld kontaktformularen for at kontakte os. Vi glæder os til at
+            høre fra dig.
+          </p>
+
+        </header>
+
+        <form name="konatkt" netlify>
+          <!-- Formular-indhold -->
+
+          <div class="form-felt">
+            <label>
+              Fornavn:
+              <input placeholder="fx Peter" type="text" id="fornavn" name="fnavn" required>
+            </label>
+          </div>
+        
+
+          <div class="form-felt">
+          <label>
+            Efternavn:
+            <input placeholder="fx Jensen" type="text" id="efternavnnavn" name="fnavn" required>
+          </label>
+          </div>
+
+
+          <div class="form-felt">
+            <label>
+              E-mail:
+              <input placeholder="fx peter@gmail.com" type="email" id="email" name="email" required>
+            </label>
+          </div>
+
+          <div class="form-felt">
+            <label>
+              Profil:
+              <select name="liste">
+                <option value="">Vælg profil</option>
+                <option value="studerende">Studerende</option>
+                <option value="underviser">Underviser</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="form-felt">
+            <label>
+              Besked (valgfri)
+              <textarea name="besked" rows="5"></textarea>
+            </label>
+          </div>
+
+          <button type="submit">Indsend</button>
+      
+        </form>
+
+       
+      </section>
+    </main>
+  </body>
+</html>
